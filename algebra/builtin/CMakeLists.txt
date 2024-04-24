@@ -8,7 +8,7 @@ endif()
 
 target_sources(
   OSQPLIB
-  PRIVATE ../_common/csc_math.h
+  PRIVATE ../algebra/_common/csc_math.h
           ../_common/csc_math.c
           ../_common/csc_utils.h
           ../_common/csc_utils.c
